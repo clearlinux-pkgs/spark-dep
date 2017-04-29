@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.0.0
-Release  : 2
+Release  : 3
 URL      : http://d3kbcqa49mib13.cloudfront.net/spark-2.0.0.tgz
 Summary  : R Frontend for Apache Spark
 Group    : Development/Tools
