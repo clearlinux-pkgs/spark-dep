@@ -1486,6 +1486,18 @@ Source1477 : https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.
 Source1478 : https://repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom
 Source1479 : https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar
 Source1480 : https://repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.pom
+Source1481 : https://repo1.maven.org/maven2/net/sf/jpam/jpam/1.1/jpam-1.1.jar
+Source1482 : https://repo1.maven.org/maven2/net/sf/jpam/jpam/1.1/jpam-1.1.pom
+Source1483 : https://repo1.maven.org/maven2/net/sf/supercsv/super-csv-parent/2.2.0/super-csv-parent-2.2.0.pom
+Source1484 : https://repo1.maven.org/maven2/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.jar
+Source1485 : https://repo1.maven.org/maven2/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.pom
+Source1486 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.jar
+Source1487 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.pom
+Source1488 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.jar
+Source1489 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.pom
+Source1490 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.jar
+Source1491 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.pom
+
 
 
 %description
@@ -4464,6 +4476,23 @@ mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52
 cp %{SOURCE1479} %{buildroot}/usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52
 cp %{SOURCE1480} %{buildroot}/usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1
+cp %{SOURCE1481} %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1
+cp %{SOURCE1482} %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv-parent/2.2.0
+cp %{SOURCE1483} %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv-parent/2.2.0
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0
+cp %{SOURCE1484} %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0
+cp %{SOURCE1485} %{buildroot}/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2
+cp %{SOURCE1486} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2
+cp %{SOURCE1487} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2
+cp %{SOURCE1488} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2
+cp %{SOURCE1489} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
+cp %{SOURCE1490} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
+cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
 
 
 %files
@@ -5949,3 +5978,15 @@ cp %{SOURCE1480} %{buildroot}/usr/share/apache-spark/.m2/repository/xmlenc/xmlen
 /usr/share/apache-spark/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom
 /usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar
 /usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.pom
+/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.jar
+/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.pom
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv-parent/2.2.0/super-csv-parent-2.2.0.pom
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.jar
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.pom
+
