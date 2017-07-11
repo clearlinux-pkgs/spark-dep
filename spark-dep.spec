@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.1.1
-Release  : 6
+Release  : 7
 URL      : https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1.tgz
 Summary  : R Frontend for Apache Spark
 Group    : Development/Tools
@@ -1497,6 +1497,45 @@ Source1488 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.
 Source1489 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.pom
 Source1490 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.jar
 Source1491 : https://repo1.maven.org/maven2/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.pom
+Source1492 : https://repo1.maven.org/maven2/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom
+Source1493 : https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.jar
+Source1494 : https://repo1.maven.org/maven2/com/github/fommil/jniloader/1.1/jniloader-1.1.pom
+Source1495 : https://repo1.maven.org/maven2/com/github/fommil/netlib/core/1.1/core-1.1.pom
+Source1496 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar
+Source1497 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
+Source1498 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
+Source1499 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom
+Source1500 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar
+Source1501 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
+Source1502 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
+Source1503 : https://repo1.maven.org/maven2/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom
+Source1504 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar
+Source1505 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
+Source1506 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar
+Source1507 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
+Source1508 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar
+Source1509 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
+Source1510 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar
+Source1511 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
+Source1512 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar
+Source1513 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
+Source1514 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar
+Source1515 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
+Source1516 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar
+Source1517 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
+Source1518 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar
+Source1519 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
+Source1520 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar
+Source1521 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
+Source1522 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar
+Source1523 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
+Source1524 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar
+Source1525 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
+Source1526 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar
+Source1527 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
+Source1528 : https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-tests.jar
+Source1529 : https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar
+Source1530 : https://repo1.maven.org/maven2/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1/spark-hive-thriftserver_2.11-2.1.1.jar
 
 
 
@@ -4493,6 +4532,84 @@ cp %{SOURCE1489} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
 cp %{SOURCE1490} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
 cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/all/1.1.2
+cp %{SOURCE1492} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/all/1.1.2
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1
+cp %{SOURCE1493} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1
+cp %{SOURCE1494} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/core/1.1
+cp %{SOURCE1495} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/core/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1
+cp %{SOURCE1496} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1
+cp %{SOURCE1497} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-xbuilds/1.1
+cp %{SOURCE1498} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-xbuilds/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref/1.1
+cp %{SOURCE1499} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1
+cp %{SOURCE1500} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1
+cp %{SOURCE1501} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-xbuilds/1.1
+cp %{SOURCE1502} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-xbuilds/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system/1.1
+cp %{SOURCE1503} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1
+cp %{SOURCE1504} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1
+cp %{SOURCE1505} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1
+cp %{SOURCE1506} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1
+cp %{SOURCE1507} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1
+cp %{SOURCE1508} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1
+cp %{SOURCE1509} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1
+cp %{SOURCE1510} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1
+cp %{SOURCE1511} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1
+cp %{SOURCE1512} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1
+cp %{SOURCE1513} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1
+cp %{SOURCE1514} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1
+cp %{SOURCE1515} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1
+cp %{SOURCE1516} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1
+cp %{SOURCE1517} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1
+cp %{SOURCE1518} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1
+cp %{SOURCE1519} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1
+cp %{SOURCE1520} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1
+cp %{SOURCE1521} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1
+cp %{SOURCE1522} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1
+cp %{SOURCE1523} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1
+cp %{SOURCE1524} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1
+cp %{SOURCE1525} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
+cp %{SOURCE1526} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
+cp %{SOURCE1527} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1
+cp %{SOURCE1528} %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1
+cp %{SOURCE1529} %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1
+mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1
+cp %{SOURCE1530} %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1
 
 
 %files
@@ -4542,8 +4659,44 @@ cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 /usr/share/apache-spark/.m2/repository/com/fasterxml/jackson/module/jackson-module-scala_2.11/2.6.5/jackson-module-scala_2.11-2.6.5.pom
 /usr/share/apache-spark/.m2/repository/com/fasterxml/oss-parent/23/oss-parent-23.pom
 /usr/share/apache-spark/.m2/repository/com/fasterxml/oss-parent/24/oss-parent-24.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/all/1.1.2/all-1.1.2.pom
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.jar
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/core/1.1.2/core-1.1.2.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref-xbuilds/1.1/native_ref-xbuilds-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_ref/1.1/native_ref-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system-xbuilds/1.1/native_system-xbuilds-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/native_system/1.1/native_system-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar
+/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/parent/1.1/parent-1.1.pom
 /usr/share/apache-spark/.m2/repository/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.jar
 /usr/share/apache-spark/.m2/repository/com/github/rwl/jtransforms/2.4.0/jtransforms-2.4.0.pom
@@ -4795,10 +4948,15 @@ cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 /usr/share/apache-spark/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar
 /usr/share/apache-spark/.m2/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.pom
 /usr/share/apache-spark/.m2/repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.jar
+/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.pom
 /usr/share/apache-spark/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
 /usr/share/apache-spark/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.pom
 /usr/share/apache-spark/.m2/repository/net/sf/py4j/py4j/0.10.4/py4j-0.10.4.jar
 /usr/share/apache-spark/.m2/repository/net/sf/py4j/py4j/0.10.4/py4j-0.10.4.pom
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv-parent/2.2.0/super-csv-parent-2.2.0.pom
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.jar
+/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.pom
 /usr/share/apache-spark/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar
 /usr/share/apache-spark/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.pom
 /usr/share/apache-spark/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar
@@ -5397,6 +5555,9 @@ cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 /usr/share/apache-spark/.m2/repository/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.jar
 /usr/share/apache-spark/.m2/repository/org/apache/parquet/parquet-jackson/1.8.1/parquet-jackson-1.8.1.pom
 /usr/share/apache-spark/.m2/repository/org/apache/parquet/parquet/1.8.1/parquet-1.8.1.pom
+/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-tests.jar
+/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar
+/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1/spark-hive-thriftserver_2.11-2.1.1.jar
 /usr/share/apache-spark/.m2/repository/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar
 /usr/share/apache-spark/.m2/repository/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom
 /usr/share/apache-spark/.m2/repository/org/apache/struts/struts-master/4/struts-master-4.pom
@@ -5934,8 +6095,14 @@ cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 /usr/share/apache-spark/.m2/repository/org/sonatype/spice/spice-parent/15/spice-parent-15.pom
 /usr/share/apache-spark/.m2/repository/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
 /usr/share/apache-spark/.m2/repository/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.pom
 /usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.jar
 /usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2.pom
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.jar
+/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.pom
 /usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.jar
 /usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-metastore/1.2.1.spark2/hive-metastore-1.2.1.spark2.pom
 /usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive/1.2.1.spark2/hive-1.2.1.spark2.pom
@@ -5978,15 +6145,3 @@ cp %{SOURCE1491} %{buildroot}/usr/share/apache-spark/.m2/repository/org/spark-pr
 /usr/share/apache-spark/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.pom
 /usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar
 /usr/share/apache-spark/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.pom
-/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.jar
-/usr/share/apache-spark/.m2/repository/net/sf/jpam/jpam/1.1/jpam-1.1.pom
-/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv-parent/2.2.0/super-csv-parent-2.2.0.pom
-/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.jar
-/usr/share/apache-spark/.m2/repository/net/sf/supercsv/super-csv/2.2.0/super-csv-2.2.0.pom
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.jar
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-beeline/1.2.1.spark2/hive-beeline-1.2.1.spark2.pom
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.jar
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-cli/1.2.1.spark2/hive-cli-1.2.1.spark2.pom
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.jar
-/usr/share/apache-spark/.m2/repository/org/spark-project/hive/hive-jdbc/1.2.1.spark2/hive-jdbc-1.2.1.spark2.pom
-
