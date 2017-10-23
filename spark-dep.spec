@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.1.1
-Release  : 9
+Release  : 10
 URL      : https://d3kbcqa49mib13.cloudfront.net/spark-2.1.1.tgz
 Summary  : R Frontend for Apache Spark
 Group    : Development/Tools
@@ -1183,15 +1183,18 @@ Source1174 : https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b3
 Source1175 : https://repo1.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.pom
 Source1176 : https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
 Source1177 : https://repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
-Source1178 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+#Source1178 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
+Source1178 : jersey-bundles-project-2.22.2.pom
 Source1179 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 Source1180 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
-Source1181 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+#Source1181 : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+Source1181 : jersey-bundles-repackaged-project-2.22.2.pom
 Source1182 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar
 Source1183 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.pom
 Source1184 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar
 Source1185 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom
-Source1186 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
+#Source1186 : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
+Source1186 : jersey-containers-project-2.22.2.pom
 Source1187 : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 Source1188 : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
 Source1189 : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar
@@ -1200,7 +1203,8 @@ Source1191 : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-ser
 Source1192 : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
 Source1193 : https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar
 Source1194 : https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
-Source1195 : https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+#Source1195 : https://repo1.maven.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+Source1195 : jersey-media-project-2.22.2.pom
 Source1196 : https://repo1.maven.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
 Source1197 : https://repo1.maven.org/maven2/org/glassfish/pom/8/pom-8.pom
 Source1198 : https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
@@ -1536,7 +1540,6 @@ Source1527 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-nati
 Source1528 : https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-tests.jar
 Source1529 : https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1.jar
 Source1530 : https://repo1.maven.org/maven2/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1/spark-hive-thriftserver_2.11-2.1.1.jar
-
 
 
 %description
@@ -3910,13 +3913,13 @@ cp %{SOURCE1176} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfis
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1
 cp %{SOURCE1177} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/project/2.22.2
-cp %{SOURCE1178} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/project/2.22.2
+cp %{SOURCE1178} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 cp %{SOURCE1179} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 cp %{SOURCE1180} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2
-cp %{SOURCE1181} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2
+cp %{SOURCE1181} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2
 cp %{SOURCE1182} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2
@@ -3926,7 +3929,7 @@ cp %{SOURCE1184} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfis
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2
 cp %{SOURCE1185} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/project/2.22.2
-cp %{SOURCE1186} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/project/2.22.2
+cp %{SOURCE1186} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
 cp %{SOURCE1187} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
@@ -3944,7 +3947,7 @@ cp %{SOURCE1193} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfis
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2
 cp %{SOURCE1194} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/media/project/2.22.2
-cp %{SOURCE1195} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/media/project/2.22.2
+cp %{SOURCE1195} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/project/2.22.2
 cp %{SOURCE1196} %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/jersey/project/2.22.2
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/glassfish/pom/8
@@ -4610,7 +4613,6 @@ mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spa
 cp %{SOURCE1529} %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-core_2.11/2.1.1
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1
 cp %{SOURCE1530} %{buildroot}/usr/share/apache-spark/.m2/repository/org/apache/spark/spark-hive-thriftserver_2.11/2.1.1
-
 
 %files
 %defattr(-,root,root,-)
