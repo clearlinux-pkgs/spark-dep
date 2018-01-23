@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.2.1
-Release  : 16
+Release  : 17
 URL      : https://github.com/apache/spark/archive/v2.2.1.tar.gz
 Summary  : This is an assembly module for Spark project. It creates a single tar.gz file that includes all needed dependency of the project
 Group    : Development/Tools
@@ -1267,17 +1267,14 @@ Source1259 : https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.
 Source1260 : https://repo.maven.apache.org/maven2/org/glassfish/hk2/hk2-utils/2.4.0-b34/hk2-utils-2.4.0-b34.pom
 Source1261 : https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar
 Source1262 : https://repo.maven.apache.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.pom
-#Source1263 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
 Source1263 : jersey-bundles-project-2.22.2.pom
 Source1264 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 Source1265 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
-#Source1266 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
 Source1266 : jersey-bundles-repackaged-project-2.22.2.pom
 Source1267 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.jar
 Source1268 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.22.2/jersey-container-servlet-core-2.22.2.pom
 Source1269 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.jar
 Source1270 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet/2.22.2/jersey-container-servlet-2.22.2.pom
-#Source1271 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
 Source1271 : jersey-containers-project-2.22.2.pom
 Source1272 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 Source1273 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
@@ -1287,7 +1284,6 @@ Source1276 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jers
 Source1277 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/core/jersey-server/2.22.2/jersey-server-2.22.2.pom
 Source1278 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar
 Source1279 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
-#Source1280 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
 Source1280 : jersey-media-project-2.22.2.pom
 Source1281 : https://repo.maven.apache.org/maven2/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
 Source1282 : https://repo.maven.apache.org/maven2/org/glassfish/pom/8/pom-8.pom
