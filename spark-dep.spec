@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.2.1
-Release  : 15
+Release  : 16
 URL      : https://github.com/apache/spark/archive/v2.2.1.tar.gz
 Summary  : This is an assembly module for Spark project. It creates a single tar.gz file that includes all needed dependency of the project
 Group    : Development/Tools
@@ -826,7 +826,6 @@ Source817 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
 Source818 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.pom
 Source819 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/2.2/maven-help-plugin-2.2.jar
 Source820 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/2.2/maven-help-plugin-2.2.pom
-#Source821 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-help-plugin/maven-metadata.xml
 Source821 : maven-help-plugin-metadata.xml
 Source822 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.jar
 Source823 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-install-plugin/2.5.2/maven-install-plugin-2.5.2.pom
@@ -836,7 +835,6 @@ Source826 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-
 Source827 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-jar-plugin/3.0.2/maven-jar-plugin-3.0.2.pom
 Source828 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.jar
 Source829 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.pom
-#Source830 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
 Source830 : plugins-metadata.xml
 Source831 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.4/maven-plugin-plugin-3.4.jar
 Source832 : https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugin-plugin/3.4/maven-plugin-plugin-3.4.pom
@@ -1043,8 +1041,6 @@ Source1032 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-
 Source1033 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/clirr-maven-plugin/2.7/clirr-maven-plugin-2.7.pom
 Source1034 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0.jar
 Source1035 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0.pom
-#Source1036 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
-Source1036 : mojo-metadata.xml
 Source1037 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml 
 Source1038 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/38/mojo-parent-38.pom
 Source1039 : https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/40/mojo-parent-40.pom
@@ -3729,8 +3725,6 @@ mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/ex
 cp %{SOURCE1034} %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0.jar
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/exec-maven-plugin/1.5.0
 cp %{SOURCE1035} %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/exec-maven-plugin/1.5.0/exec-maven-plugin-1.5.0.pom
-mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo
-cp %{SOURCE1036} %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/maven-metadata-central.xml
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo
 cp %{SOURCE1037} %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/maven-metadata-central.xml 
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/org/codehaus/mojo/mojo-parent/38
