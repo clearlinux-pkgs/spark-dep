@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.2.1
-Release  : 19
+Release  : 20
 URL      : https://github.com/apache/spark/archive/v2.2.1.tar.gz
 Summary  : This is an assembly module for Spark project. It creates a single tar.gz file that includes all needed dependency of the project
 Group    : Development/Tools
