@@ -1,6 +1,6 @@
 Name     : spark-dep
 Version  : 2.2.1
-Release  : 20
+Release  : 21
 URL      : https://github.com/apache/spark/archive/v2.2.1.tar.gz
 Summary  : This is an assembly module for Spark project. It creates a single tar.gz file that includes all needed dependency of the project
 Group    : Development/Tools
@@ -1642,6 +1642,14 @@ Source1634 : https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-nati
 
 %description
 This is an assembly module for Spark project. It creates a single tar.gz file that includes all needed dependency of the project
+
+%package java
+Summary: ground beans
+Group: Documentation
+
+%description java
+java glue
+
 
 %prep
 
@@ -4917,6 +4925,12 @@ cp %{SOURCE1633} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/f
 mkdir -p %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
 cp %{SOURCE1634} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1
 
+mkdir -p %{buildroot}/usr/share/maven-poms
+cp -u `find %{buildroot}/usr/share/apache-spark -name "*.pom"` %{buildroot}/usr/share/maven-poms
+mkdir -p %{buildroot}/usr/share/java
+cp -u `find %{buildroot}/usr/share/apache-spark -name "*.jar"` %{buildroot}/usr/share/java/
+
+
 %files
 %defattr(-,root,root,-)
 /usr/share/apache-spark/.m2/repository/antlr/antlr/2.7.2/antlr-2.7.2.jar
@@ -6553,3 +6567,8 @@ cp %{SOURCE1634} %{buildroot}/usr/share/apache-spark/.m2/repository/com/github/f
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1.pom
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar
 /usr/share/apache-spark/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1.pom
+
+
+%files java
+/usr/share/java/*jar
+/usr/share/maven-poms/*
