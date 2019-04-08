@@ -44,23 +44,36 @@ cd "${REPO_DIR}"
 # it's extracted to)
 SPARK_DIR=$(tar xzvf "${SPARK_TGZ}" | head -1)
 SPARK_DIR=${SPARK_DIR%%/*}
-#tar xzf "${SPARK_TGZ}"
+tar xzf "${SPARK_TGZ}"
 
 ### fetch the spark depenencies and store the log (to retrieve the urls)
 
 cd "${SPARK_DIR}"
 
 ## patch it as per the spark .spec (assume files do not contain spaces)
-#PATCHES=$(grep ^Patch "${REPO_DIR}/../apache-spark/apache-spark.spec" | sed -e 's/Patch[0-9]\+\s*:\s*\(\S\)\s*/\1/')
+PATCHES=$(grep ^Patch "${REPO_DIR}/../apache-spark/apache-spark.spec" | sed -e 's/Patch[0-9]\+\s*:\s*\(\S\)\s*/\1/')
 #
-#for p in $PATCHES; do
-#    patch -p1 < "${REPO_DIR}/../apache-spark/${p}"
-#done
+for p in $PATCHES; do
+    patch -p1 < "${REPO_DIR}/../apache-spark/${p}"
+done
 
-./dev/make-distribution.sh --mvn /usr/bin/mvn --name custom-spark --pip --r --tgz -Psparkr \
--Phadoop-2.7 -Phive -Phive-thriftserver -Pmesos -Pyarn -Pkubernetes || 
-
-cd "${REPO_DIR}"
+JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk \
+  ./dev/make-distribution.sh \
+    --mvn /usr/bin/mvn \
+    --name custom-spark \
+    --pip \
+    --r \
+    --tgz \
+    -Dhadoop.version=3.2.0 \
+    -Dzookeeper.version=3.4.13 \
+    -Phadoop-3 \
+    -Phive \
+    -Phive-thriftserver \
+    -Pkubernetes \
+    -Pmesos \
+    -Pscala-2.12 \
+    -Psparkr \
+    -Pyarn || cd "${REPO_DIR}"
 
 # remove previously created artifacts
 rm -f sources.txt install.txt files.txt metadata-*.patch
