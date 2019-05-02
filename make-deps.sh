@@ -73,7 +73,8 @@ JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk \
     -Pmesos \
     -Pscala-2.12 \
     -Psparkr \
-    -Pyarn || cd "${REPO_DIR}"
+    -Pyarn \
+		-Pnetlib-lgpl || cd "${REPO_DIR}"
 
 # remove previously created artifacts
 rm -f sources.txt install.txt files.txt metadata-*.patch
